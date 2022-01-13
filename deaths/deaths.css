@@ -1,0 +1,360 @@
+.deaths-section {
+  display: flex;
+  justify-content: space-between;
+  width: 88.5%;
+  margin: 75px auto 115px;
+  text-align: left;
+  color: #ffffff;
+  background-color: #071832;
+}
+
+.deaths {
+  width: 100%;
+}
+
+.deaths h1 {
+  font-style: italic;
+  font-size: 42px;
+  line-height: 48px;
+  margin-left: 11px;
+  text-transform: uppercase;
+}
+
+.deaths hr {
+  width: 100%;
+  height: 5px;
+  border: none;
+  margin: 11px 0px 37px 0px;
+  border-radius: 21px;
+  background: linear-gradient(90deg, #838be1 0%, rgba(202, 230, 245, 0) 100%);
+}
+
+.deaths-persons {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  column-gap: 14px;
+  row-gap: 9px;
+  text-align: center;
+}
+
+.deaths-person {
+  width: 200px;
+  height: 244px;
+  background: linear-gradient(
+    180deg,
+    rgba(131, 139, 225, 0.192) 0%,
+    rgba(131, 139, 225, 0) 100%
+  );
+  border-radius: 16px;
+}
+
+.deaths-person img {
+  width: 130px;
+  height: 173px;
+  margin-top: 14px;
+}
+
+.deaths-person p {
+  font-size: 15px;
+  line-height: 17px;
+  margin-top: 0px;
+}
+
+.deaths-mostView {
+  margin-top: 45px;
+  margin-left: 65px;
+}
+
+.deaths-mostView h3 {
+  font-size: 20px;
+  line-height: 23px;
+  font-style: normal;
+  font-weight: normal;
+  margin-bottom: 15px;
+}
+
+.deaths-mostView hr {
+  width: 354px;
+  height: 5px;
+  margin: 0px 0px 4px 0px;
+  background: linear-gradient(90deg, #838be1 0%, rgba(202, 230, 245, 0) 100%);
+  border: none;
+  border-radius: 21px;
+}
+
+.deaths-mostViewPersons div:first-child {
+  margin-top: 36px;
+}
+
+.deaths-mostViewPersons > div:not(:first-child) {
+  margin-top: 30px;
+}
+
+.deaths-mostViewPerson {
+  display: flex;
+}
+
+.deaths-mostViewPerson img {
+  width: 80px;
+  height: 126px;
+}
+
+.deaths-mostViewPerson p {
+  font-size: 20px;
+  line-height: 23px;
+  margin: 0px;
+  margin-left: 13px;
+}
+
+.deaths-mostViewPerson_info p:last-child {
+  margin-top: 10px;
+}
+
+@media only screen and (max-width: 1439px) {
+  .deaths h1 {
+    font-size: 35px;
+    line-height: 40px;
+    margin-left: 9.17px;
+  }
+  .deaths hr {
+    height: 4.17px;
+    margin: 9.17px 0px 30.83px 0px;
+    margin-left: 9.17px;
+  }
+  .deaths-persons {
+    grid-template-columns: repeat(auto-fill, minmax(166.67px, 1fr));
+    column-gap: 11.67px;
+    row-gap: 7.5px;
+  }
+  .deaths-person {
+    width: 166.67px;
+    height: 203.33px;
+  }
+  .deaths-person img {
+    width: 108.33px;
+    height: 144.17px;
+    margin-top: 11.67px;
+  }
+  .deaths-person p {
+    font-size: 12.5px;
+    line-height: 14.17px;
+  }
+  .deaths-mostView {
+    margin-top: 37.5px;
+    margin-left: 54.17px;
+  }
+  .deaths-mostView h3 {
+    font-size: 16.67px;
+    line-height: 19.17px;
+    margin-bottom: 12.5px;
+  }
+  .deaths-mostView hr {
+    width: 295px;
+    height: 4.17px;
+    margin: 0px 0px 3.33px 0px;
+  }
+  .deaths-mostViewPersons div:first-child {
+    margin-top: 30px;
+  }
+  .deaths-mostViewPersons > div:not(:first-child) {
+    margin-top: 25px;
+  }
+  .deaths-mostViewPerson img {
+    width: 66.67px;
+    height: 105px;
+  }
+  .deaths-mostViewPerson p {
+    font-size: 16.67px;
+    line-height: 19.17px;
+    margin-left: 19.17px;
+  }
+  .deaths-mostViewPerson_info p:last-child {
+    margin-top: 8.33px;
+  }
+}
+@media only screen and (max-width: 1199px) {
+  .deaths h1 {
+    font-size: 28.9px;
+    line-height: 33.03px;
+    margin-left: 7.57px;
+  }
+  .deaths hr {
+    height: 3.44px;
+    margin: 7.57px 0px 25.46px 0px;
+    margin-left: 7.57px;
+  }
+  .deaths-persons {
+    grid-template-columns: repeat(auto-fill, minmax(137.64px, 1fr));
+    column-gap: 9.63px;
+    row-gap: 6.19px;
+  }
+  .deaths-person {
+    width: 137.64px;
+    height: 167.92px;
+  }
+  .deaths-person img {
+    width: 89.47px;
+    height: 119.06px;
+    margin-top: 9.63px;
+  }
+  .deaths-person p {
+    font-size: 10.32px;
+    line-height: 11.7px;
+  }
+  .deaths-mostView {
+    margin-top: 30.97px;
+    margin-left: 44.73px;
+  }
+  .deaths-mostView h3 {
+    font-size: 13.76px;
+    line-height: 15.83px;
+    margin-bottom: 10.32px;
+  }
+  .deaths-mostView hr {
+    width: 243.62px;
+    height: 3.44px;
+    margin: 0px 0px 2.75px 0px;
+  }
+  .deaths-mostViewPersons div:first-child {
+    margin-top: 24.77px;
+  }
+  .deaths-mostViewPersons > div:not(:first-child) {
+    margin-top: 20.65px;
+  }
+  .deaths-mostViewPerson img {
+    width: 55.06px;
+    height: 86.71px;
+  }
+  .deaths-mostViewPerson p {
+    font-size: 13.76px;
+    line-height: 15.83px;
+    margin-left: 15.83px;
+  }
+  .deaths-mostViewPerson_info p:last-child {
+    margin-top: 6.88px;
+  }
+}
+@media only screen and (max-width: 990px) {
+  .deaths h1 {
+    font-size: 22.4px;
+    line-height: 25.6px;
+    margin-left: 5.87px;
+  }
+  .deaths hr {
+    height: 2.67px;
+    margin: 5.87px 0px 19.73px 0px;
+    margin-left: 5.87px;
+  }
+  .deaths-persons {
+    grid-template-columns: repeat(auto-fill, minmax(106.67px, 1fr));
+    column-gap: 7.47px;
+    row-gap: 4.8px;
+  }
+  .deaths-person {
+    width: 106.67px;
+    height: 130.13px;
+  }
+  .deaths-person img {
+    width: 69.33px;
+    height: 92.27px;
+    margin-top: 7.47px;
+  }
+  .deaths-person p {
+    font-size: 8px;
+    line-height: 9.07px;
+  }
+  .deaths-mostView {
+    margin-top: 24px;
+    margin-left: 34.67px;
+  }
+  .deaths-mostView h3 {
+    font-size: 10.67px;
+    line-height: 12.27px;
+    margin-bottom: 8px;
+  }
+  .deaths-mostView hr {
+    width: 188.8px;
+    height: 2.67px;
+    margin: 0px 0px 2.13px 0px;
+  }
+  .deaths-mostViewPersons div:first-child {
+    margin-top: 19px;
+  }
+  .deaths-mostViewPersons > div:not(:first-child) {
+    margin-top: 16px;
+  }
+  .deaths-mostViewPerson img {
+    width: 42.67px;
+    height: 67.2px;
+  }
+  .deaths-mostViewPerson p {
+    font-size: 10.67px;
+    line-height: 12.27px;
+    margin-left: 12.27px;
+  }
+  .deaths-mostViewPerson_info p:last-child {
+    margin-top: 5.33px;
+  }
+}
+@media only screen and (max-width: 767px) {
+  .deaths h1 {
+    font-size: 17.5px;
+    line-height: 20px;
+    margin-left: 4.58px;
+  }
+  .deaths hr {
+    height: 2.08px;
+    margin: 4.58px 0px 15.42px 0px;
+    margin-left: 4.58px;
+  }
+  .deaths-persons {
+    grid-template-columns: repeat(auto-fill, minmax(83.33px, 1fr));
+    column-gap: 5.83px;
+    row-gap: 3.75px;
+  }
+  .deaths-person {
+    width: 83.33px;
+    height: 101.67px;
+  }
+  .deaths-person img {
+    width: 54.17px;
+    height: 72.08px;
+    margin-top: 5.83px;
+  }
+  .deaths-person p {
+    font-size: 6.25px;
+    line-height: 7.08px;
+  }
+  .deaths-mostView {
+    margin-top: 18.75px;
+    margin-left: 27.08px;
+  }
+  .deaths-mostView h3 {
+    font-size: 8.33px;
+    line-height: 9.58px;
+    margin-bottom: 6.25px;
+  }
+  .deaths-mostView hr {
+    width: 147.5px;
+    height: 2.08px;
+    margin: 0px 0px 1.67px 0px;
+  }
+  .deaths-mostViewPersons div:first-child {
+    margin-top: 15px;
+  }
+  .deaths-mostViewPersons > div:not(:first-child) {
+    margin-top: 12.5px;
+  }
+  .deaths-mostViewPerson img {
+    width: 33.33px;
+    height: 52.5px;
+  }
+  .deaths-mostViewPerson p {
+    font-size: 8.33px;
+    line-height: 9.58px;
+    margin-left: 9.58px;
+  }
+  .deaths-mostViewPerson_info p:last-child {
+    margin-top: 4.17px;
+  }
+}
