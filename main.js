@@ -118,12 +118,12 @@ function res(name, params) {
     for (let key in params) {
       if (!isNaN(params[key])) {
         let value = (size * params[key]) / 1440;
-        result += `${key}: ${value.toFixed(2)}px;`;
+        result += `${key}: ${value.toFixed(1)}px;`;
       } else {
         result += `${key}: `;
         params[key].map((everyNum) => {
           let value = (size * everyNum) / 1440;
-          result += `${value.toFixed(2)}px `;
+          result += `${value.toFixed(1)}px `;
         });
         result += `;`;
       }
@@ -134,5 +134,6 @@ function res(name, params) {
 }
 
 res("person-images img", {
-  width: 170,
+  width: 20,
+  awd: 35,
 });
