@@ -131,7 +131,7 @@
   border-radius: 21px;
 }
 
-.culture_mostView-news > div:not(:first-child) {
+.culture_mostView-news > a:not(:first-child) {
   margin-top: 30px;
 }
 
@@ -141,6 +141,7 @@
   overflow: scroll;
   overflow-x: hidden;
   max-height: 930px;
+  cursor: pointer;
 }
 
 .culture_mostView-news::-webkit-scrollbar {
@@ -265,7 +266,7 @@
   .culture_mostView hr {
     width: 265px;
   }
-  .culture_mostView-news > div:not(:first-child) {
+  .culture_mostView-news > a:not(:first-child) {
     margin-top: 22px;
   }
   .culture_mostView-news {
@@ -353,7 +354,7 @@
   .culture_mostView hr {
     width: 221px;
   }
-  .culture_mostView-news > div:not(:first-child) {
+  .culture_mostView-news > a:not(:first-child) {
     margin-top: 18.75px;
   }
   .culture_mostView-news {
@@ -447,7 +448,7 @@
   .culture_mostView hr {
     width: 182px;
   }
-  .culture_mostView-news > div:not(:first-child) {
+  .culture_mostView-news > a:not(:first-child) {
     margin-top: 15.5px;
   }
   .culture_mostView-news {
@@ -542,7 +543,7 @@
   .culture_mostView hr {
     width: 141px;
   }
-  .culture_mostView-news > div:not(:first-child) {
+  .culture_mostView-news > a:not(:first-child) {
     margin-top: 12px;
   }
   .culture_mostView-news {
@@ -636,7 +637,7 @@
   .culture_mostView hr {
     width: 110px;
   }
-  .culture_mostView-news > div:not(:first-child) {
+  .culture_mostView-news > a:not(:first-child) {
     margin-top: 9px;
   }
   .culture_mostView-news {

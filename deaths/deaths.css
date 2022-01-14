@@ -46,6 +46,7 @@
     rgba(131, 139, 225, 0) 100%
   );
   border-radius: 16px;
+  cursor: pointer;
 }
 
 .deaths-person img {
@@ -58,6 +59,7 @@
   font-size: 15px;
   line-height: 17px;
   margin-top: 0px;
+  color: #ffffff;
 }
 
 .deaths-mostView {
@@ -82,11 +84,11 @@
   border-radius: 21px;
 }
 
-.deaths-mostViewPersons div:first-child {
+.deaths-mostViewPersons a:first-child {
   margin-top: 36px;
 }
 
-.deaths-mostViewPersons > div:not(:first-child) {
+.deaths-mostViewPersons > a:not(:first-child) {
   margin-top: 30px;
 }
 
@@ -104,6 +106,7 @@
   line-height: 23px;
   margin: 0px;
   margin-left: 13px;
+  color: #ffffff;
 }
 
 .deaths-mostViewPerson_info p:last-child {
@@ -153,10 +156,10 @@
     height: 4.17px;
     margin: 0px 0px 3.33px 0px;
   }
-  .deaths-mostViewPersons div:first-child {
+  .deaths-mostViewPersons a:first-child {
     margin-top: 30px;
   }
-  .deaths-mostViewPersons > div:not(:first-child) {
+  .deaths-mostViewPersons > a:not(:first-child) {
     margin-top: 25px;
   }
   .deaths-mostViewPerson img {
@@ -215,10 +218,10 @@
     height: 3.44px;
     margin: 0px 0px 2.75px 0px;
   }
-  .deaths-mostViewPersons div:first-child {
+  .deaths-mostViewPersons a:first-child {
     margin-top: 24.77px;
   }
-  .deaths-mostViewPersons > div:not(:first-child) {
+  .deaths-mostViewPersons > a:not(:first-child) {
     margin-top: 20.65px;
   }
   .deaths-mostViewPerson img {
@@ -277,10 +280,10 @@
     height: 2.67px;
     margin: 0px 0px 2.13px 0px;
   }
-  .deaths-mostViewPersons div:first-child {
+  .deaths-mostViewPersons a:first-child {
     margin-top: 19px;
   }
-  .deaths-mostViewPersons > div:not(:first-child) {
+  .deaths-mostViewPersons > a:not(:first-child) {
     margin-top: 16px;
   }
   .deaths-mostViewPerson img {
@@ -339,10 +342,10 @@
     height: 2.08px;
     margin: 0px 0px 1.67px 0px;
   }
-  .deaths-mostViewPersons div:first-child {
+  .deaths-mostViewPersons a:first-child {
     margin-top: 15px;
   }
-  .deaths-mostViewPersons > div:not(:first-child) {
+  .deaths-mostViewPersons > a:not(:first-child) {
     margin-top: 12.5px;
   }
   .deaths-mostViewPerson img {

@@ -4,6 +4,8 @@
 @import url("./deaths/deaths.css");
 @import url("./encyclopedia/encyclopedia.css");
 @import url("./encyclopedia/person-info/person-info.css");
+@import url("./videos/videos.css");
+/* @import url("./videos/video-view/video-view.css"); */
 
 * {
   box-sizing: border-box;

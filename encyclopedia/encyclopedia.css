@@ -58,6 +58,7 @@
   font-size: 15px;
   line-height: 17px;
   margin-top: 0px;
+  color: #ffffff;
 }
 
 .encyclopedia-mostView {
@@ -82,16 +83,17 @@
   border-radius: 21px;
 }
 
-.encyclopedia-mostViewPersons div:first-child {
+.encyclopedia-mostViewPersons a:first-child {
   margin-top: 36px;
 }
 
-.encyclopedia-mostViewPersons > div:not(:first-child) {
+.encyclopedia-mostViewPersons > a:not(:first-child) {
   margin-top: 30px;
 }
 
 .encyclopedia-mostViewPerson {
   display: flex;
+  cursor: pointer;
 }
 
 .encyclopedia-mostViewPerson img {
@@ -104,6 +106,7 @@
   line-height: 23px;
   margin: 0px;
   margin-left: 13px;
+  color: #ffffff;
 }
 
 .encyclopedia-mostViewPerson_info p:last-child {
@@ -193,10 +196,10 @@
     height: 4.17px;
     margin: 0px 0px 3.33px 0px;
   }
-  .encyclopedia-mostViewPersons div:first-child {
+  .encyclopedia-mostViewPersons a:first-child {
     margin-top: 30px;
   }
-  .encyclopedia-mostViewPersons > div:not(:first-child) {
+  .encyclopedia-mostViewPersons > a:not(:first-child) {
     margin-top: 25px;
   }
   .encyclopedia-mostViewPerson img {
@@ -255,10 +258,10 @@
     height: 3.44px;
     margin: 0px 0px 2.75px 0px;
   }
-  .encyclopedia-mostViewPersons div:first-child {
+  .encyclopedia-mostViewPersons a:first-child {
     margin-top: 24.77px;
   }
-  .encyclopedia-mostViewPersons > div:not(:first-child) {
+  .encyclopedia-mostViewPersons > a:not(:first-child) {
     margin-top: 20.65px;
   }
   .encyclopedia-mostViewPerson img {
@@ -317,10 +320,10 @@
     height: 2.67px;
     margin: 0px 0px 2.13px 0px;
   }
-  .encyclopedia-mostViewPersons div:first-child {
+  .encyclopedia-mostViewPersons a:first-child {
     margin-top: 19px;
   }
-  .encyclopedia-mostViewPersons > div:not(:first-child) {
+  .encyclopedia-mostViewPersons > a:not(:first-child) {
     margin-top: 16px;
   }
   .encyclopedia-mostViewPerson img {
@@ -379,10 +382,10 @@
     height: 2.08px;
     margin: 0px 0px 1.67px 0px;
   }
-  .encyclopedia-mostViewPersons div:first-child {
+  .encyclopedia-mostViewPersons a:first-child {
     margin-top: 15px;
   }
-  .encyclopedia-mostViewPersons > div:not(:first-child) {
+  .encyclopedia-mostViewPersons > a:not(:first-child) {
     margin-top: 12.5px;
   }
   .encyclopedia-mostViewPerson img {
