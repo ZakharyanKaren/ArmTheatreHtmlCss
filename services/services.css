@@ -1,0 +1,44 @@
+.services-section {
+  background-color: #071832;
+  margin: 97px 114px 160px 101px;
+  text-align: left;
+}
+
+.services-wrapper {
+  display: flex;
+  justify-content: space-between;
+}
+
+.service-wrapper {
+  position: relative;
+  width: 318px;
+  height: 367px;
+  border: 1px solid #ffffff;
+  border-radius: 33px;
+  text-align: center;
+  cursor: pointer;
+}
+
+.service {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
+
+.service div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 62px;
+  background: rgba(131, 139, 225, 0.59);
+  border-radius: 0px 0px 35px 35px;
+}
+
+.service img {
+}
+.service p {
+  margin: 0px;
+  padding: 0px 20px;
+  color: #ffffff;
+  font-size: 18px;
+}

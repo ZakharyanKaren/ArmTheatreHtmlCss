@@ -5,8 +5,12 @@
 @import url("./encyclopedia/encyclopedia.css");
 @import url("./encyclopedia/person-info/person-info.css");
 @import url("./videos/videos.css");
+@import url("./services/services.css");
+@import url("./services/dj/dj.css");
+@import url("./services/host/host.css");
+@import url("./services/events/events.css");
+@import url("./services/dancing/dancing.css");
 /* @import url("./videos/video-view/video-view.css"); */
-
 * {
   box-sizing: border-box;
 }
