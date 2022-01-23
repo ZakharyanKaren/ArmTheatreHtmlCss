@@ -33,6 +33,7 @@ body {
 }
 
 .content-wrapper {
+  position: relative;
   width: 100%;
   max-width: 1920px;
   margin: 0 auto;
@@ -44,13 +45,8 @@ body {
   background-color: #1179a7;
 }
 
-.header-wrapper_size {
-  width: 100%;
-  max-width: 1920px;
-}
-
 .header-info_section {
-  max-width: 78.5%;
+  max-width: 81%;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -60,12 +56,10 @@ body {
 
 .header-info_section a {
   color: #ffffff;
-  font-size: 18px;
-  line-height: 21px;
+  font-size: 16px;
   cursor: pointer;
   text-decoration: none;
   text-shadow: 1px 1px rgba(0, 0, 0, 0.5);
-  margin-left: 18px;
 }
 
 .search_lang-switch {
@@ -90,24 +84,19 @@ body {
   position: relative;
   background-image: url("./images/header-photo.png");
   background-repeat: no-repeat;
-  background-size: cover;
-  width: 100%;
-  height: 930px;
-  margin: 0 auto;
+  background-size: contain;
+  height: 420px;
 }
 
 .header-section {
   display: flex;
   justify-content: space-between;
   width: 100%;
-  max-width: 1920px;
-  padding-top: 26px;
-  padding-bottom: 37px;
-  margin: 0px auto;
+  padding: 15px 0px;
 }
 
 .logo-wrapper {
-  width: 9.323%;
+  width: 4.4%;
 }
 
 .logo-wrapper img {
@@ -119,28 +108,18 @@ body {
   cursor: pointer;
 }
 
-.logo-wrapper p {
-  font-size: 13px;
-  letter-spacing: 0.8em;
-  font-family: "Saira Condensed";
-  text-align: center;
-  color: #cae6f5;
-  text-shadow: 16px 6px 5px rgb(0 0 0 / 25%);
-  margin: 0px;
-}
-
 .header-main-nav {
-  width: 80.5%;
+  width: 84%;
   margin-top: auto;
-  margin-bottom: 3px;
+  margin-bottom: 2px;
   border-bottom: 2px solid #838be1;
   transition: 0.6s;
 }
 
 .main-nav-sections {
   text-transform: uppercase;
-  margin-right: 8%;
-  margin-bottom: 15px;
+  margin-right: 11%;
+  margin-bottom: 5px;
   text-align: right;
   overflow: hidden;
 }
@@ -149,7 +128,7 @@ body {
   display: inline-block;
   color: #f2f2f2;
   text-align: center;
-  padding: 14px 16px;
+  padding-bottom: 14px;
   text-decoration: none;
 }
 
@@ -157,9 +136,8 @@ body {
   background-color: inherit;
   color: #afb8f1;
   cursor: pointer;
-  font-size: 18px;
-  margin: 0px 14px;
-  padding-bottom: 7px;
+  font-size: 16px;
+  padding: 0px 10px;
 }
 
 .navBar-btn {
@@ -192,9 +170,9 @@ body {
 
 .left-side {
   height: 2px;
-  width: 8.4%;
+  width: 10%;
   margin-top: auto;
-  margin-bottom: 3px;
+  margin-bottom: 2px;
   background: linear-gradient(
     90deg,
     rgba(7, 25, 51, 1) 0%,
@@ -242,7 +220,7 @@ button {
 
 .search-input_focus {
   padding-left: 15px;
-  width: 450px;
+  width: 400px;
   transition: 0.6s ease-in-out;
 }
 
@@ -292,7 +270,7 @@ button {
 .arm,
 .eng {
   width: 35px;
-  font-size: 18px;
+  font-size: 16px;
   color: #838be1;
   line-height: 21px;
   transition: 0.6s;
@@ -345,38 +323,35 @@ button {
 
 .squares {
   position: absolute;
-  width: 338px;
-  height: 303px;
+  width: 225px;
+  height: 202px;
   border: 1px solid #838be1;
-  right: 130px;
-  top: 120px;
+  left: 12%;
+  top: 72px;
 }
 
 .description-wrapper {
   position: absolute;
-  width: 366px;
-  right: 110px;
-  top: 150px;
+  width: 244px;
+  left: 11.5%;
+  top: 85px;
   background-color: rgba(131, 139, 225, 0.5);
   border-radius: 23px;
-  z-index: 1000;
+  z-index: 10;
 }
 
 .description-wrapper h3 {
-  font-size: 35px;
-  line-height: 40px;
-  color: #ffffff;
-  font-style: normal;
+  font-size: 22px;
   font-weight: normal;
   margin: 0;
-  margin-top: 20px;
+  margin-top: 13px;
+  color: #ffffff;
 }
 
 .description-wrapper p {
-  font-style: normal;
   font-weight: normal;
-  font-size: 20px;
-  line-height: 23px;
+  font-size: 13px;
+  line-height: 15px;
   margin: 0;
   margin-top: 9px;
   padding: 0 20px 20px 24px;
@@ -386,27 +361,28 @@ button {
 
 .event-description {
   background-color: rgba(131, 139, 225, 0.59);
-  padding: 32px 0;
+  padding: 21px 0;
   position: absolute;
   width: 100%;
   bottom: 0;
+  text-align: right;
 }
 
 .event-description h2 {
-  font-style: normal;
-  font-weight: bold;
-  font-size: 48px;
-  line-height: 55px;
+  font-size: 32px;
   color: #ffffff;
-  margin: 0;
+  margin: 0px;
+  margin-right: 111px;
   display: inline-block;
-  transform: translate(140px, 0px);
+}
+
+.body-wrapper {
+  max-width: 70%;
+  margin: 0 auto;
 }
 
 .navBar-wrapper {
-  width: 88.5%;
-  max-width: 1701px;
-  margin: 50px auto 72px;
+  margin: 15px auto;
 }
 
 .navBar {
@@ -414,15 +390,27 @@ button {
   align-items: center;
   justify-content: center;
   flex-wrap: wrap;
-  background-color: #838be1;
-  border-radius: 10px;
   filter: drop-shadow(0px 9px 10px rgba(0, 0, 0, 0.25));
 }
 
 .navBar li {
   display: inline-block;
   width: 25%;
-  padding: 10px 0px;
+  padding: 5px 0px;
+  background-color: #3a345f;
+}
+
+.navBar li:not(:last-child) a {
+  border-right: 1px solid #ffffff;
+}
+
+.navBar li:first-child {
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
+.navBar li:last-child {
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
 }
 
 .navBar a {
@@ -438,15 +426,8 @@ button {
   cursor: pointer;
 }
 
-.navBar li:not(:last-child) a {
-  border-right: 1px solid #ffffff;
-}
-
 .navBar p {
-  font-style: normal;
-  font-weight: normal;
-  font-size: 20px;
-  line-height: 23px;
+  font-size: 16px;
   color: #ffffff;
   margin: 0;
   text-transform: uppercase;
@@ -454,43 +435,42 @@ button {
 
 .main-slider_wrapper {
   position: relative;
+  margin-top: 40px;
 }
 
 .main-slider_wrapper::before,
 .main-slider_wrapper::after {
   content: "";
   position: absolute;
-  left: 0;
-  width: 100%;
-  height: 5px;
-  background: linear-gradient(90deg, #838be1 3.31%, #cae6f5 103.31%);
-  border-radius: 21px;
+  width: 59%;
+  height: 2px;
+  background: linear-gradient(
+    90deg,
+    rgba(131, 139, 225, 0.2) 3.31%,
+    rgba(202, 230, 245, 0.2) 103.31%
+  );
+  border-radius: 14px;
 }
 
 .main-slider_wrapper::before {
   content: "";
   top: 0px;
+  right: 0px;
 }
 
 .main-slider_wrapper::after {
   content: "";
   bottom: 0px;
+  left: 0px;
 }
 
 .swiper {
-  width: 88.5%;
-  max-width: 1701px;
+  width: 100%;
 }
 
 .swiper-slide {
-  margin: 33px 0 40px 0;
-  width: 300px;
-  filter: drop-shadow(14px 17px 6px rgba(110, 52, 8, 0.48));
-}
-
-.main-wrapper {
-  width: 100%;
-  position: relative;
+  margin: 22px 0px;
+  filter: drop-shadow(11px 14px 4.8px #010e21);
 }
 
 .main-wrapper button {
@@ -498,8 +478,8 @@ button {
 }
 
 .main {
-  margin: 100px 93px 0px;
-  padding-bottom: 230px;
+  margin: 40px 60px 0px;
+  padding-bottom: 200px;
 }
 
 .grids {
@@ -512,7 +492,7 @@ button {
   display: flex;
   justify-content: space-between;
   width: 865px;
-  height: 370px;
+  height: 232px;
 }
 
 .sections-animation:not(:last-child) {
@@ -541,7 +521,6 @@ button {
 
 .right-animation > div:nth-child(2),
 .left-animation > div:nth-child(1) {
-  background: rgba(185, 138, 51, 0.4);
   width: 341.74px;
   height: 202.59px;
   border-radius: 26px;
@@ -553,10 +532,10 @@ button {
 }
 
 .right-animation > div:nth-child(2) {
-  margin-right: 78px;
+  margin-right: 88px;
 }
 .left-animation > div:nth-child(1) {
-  margin-left: 78px;
+  margin-left: 88px;
 }
 
 .menu-sales-pics {
@@ -567,17 +546,26 @@ button {
 }
 
 .menu-sales-pics img:nth-child(1) {
-  width: 402px;
-  height: 298px;
-  left: -45px;
+  width: 323px;
+  height: 215px;
+  left: -83px;
   top: -10px;
 }
 
 .menu-sales-pics img:nth-child(2) {
-  width: 411px;
-  height: 331px;
-  top: 90px;
-  left: 10px;
+  width: 323px;
+  height: 215px;
+  top: 65px;
+  left: -35px;
+}
+
+.general-menu h3 {
+  max-width: 250px;
+  font-size: 25px;
+  line-height: 30px;
+  text-transform: uppercase;
+  color: #ffffff;
+  margin: 0px;
 }
 
 .menu-sales img {
@@ -589,29 +577,6 @@ button {
   height: 204px;
 }
 
-.menu-sales h3 {
-  text-transform: uppercase;
-  color: #ffffff;
-  font-style: normal;
-  font-weight: bold;
-  font-size: 28px;
-  line-height: 40px;
-  margin: 5px 0 10px 0;
-}
-
-.menu-sales button {
-  text-transform: uppercase;
-  background-color: #922fab;
-  border-radius: 31px;
-  padding: 5px 30px;
-  border: none;
-  color: #ffffff;
-  font-weight: bold;
-  font-size: 25px;
-  text-align: center;
-  margin-bottom: 5px;
-}
-
 .menu-encyclopedia-pics {
   position: relative;
 }
@@ -620,8 +585,8 @@ button {
   position: absolute;
   width: 454px;
   height: 324px;
-  right: -30px;
-  top: 85px;
+  top: -50px;
+  right: -90px;
 }
 
 .menu-encyclopedia img {
@@ -629,29 +594,6 @@ button {
   right: 50px;
   top: 65px;
   z-index: -10;
-}
-
-.menu-encyclopedia h3 {
-  text-transform: uppercase;
-  color: #ffffff;
-  font-style: normal;
-  font-weight: bold;
-  font-size: 28px;
-  line-height: 40px;
-  margin: 5px 0 10px 0;
-}
-
-.menu-encyclopedia button {
-  text-transform: uppercase;
-  background-color: #922fab;
-  border-radius: 31px;
-  padding: 5px 30px;
-  border: none;
-  color: #ffffff;
-  font-weight: bold;
-  font-size: 25px;
-  text-align: center;
-  margin-bottom: 5px;
 }
 
 .menu-culture-pics {
@@ -663,42 +605,12 @@ button {
 
 .menu-culture-pics img:nth-child(1) {
   left: -45px;
-  top: -10px;
+  top: -50px;
 }
 
 .menu-culture-pics img:nth-child(2) {
-  left: 10px;
-  bottom: -70px;
-}
-
-.menu-culture img {
-  position: absolute;
-  right: 50px;
-  top: 65px;
-  z-index: -10;
-}
-
-.menu-culture h3 {
-  text-transform: uppercase;
-  color: #ffffff;
-  font-style: normal;
-  font-weight: bold;
-  font-size: 28px;
-  line-height: 40px;
-  margin: 5px 0 10px 0;
-}
-
-.menu-culture button {
-  text-transform: uppercase;
-  background-color: #922fab;
-  border-radius: 31px;
-  padding: 5px 30px;
-  border: none;
-  color: #ffffff;
-  font-weight: bold;
-  font-size: 25px;
-  text-align: center;
-  margin-bottom: 5px;
+  left: 20px;
+  bottom: -135px;
 }
 
 .menu-culture-video-pics {
@@ -712,7 +624,7 @@ button {
   width: 379px;
   height: 416px;
   right: -80px;
-  top: -10px;
+  bottom: -70px;
 }
 
 .menu-culture-video img {
@@ -720,29 +632,6 @@ button {
   right: 50px;
   top: 65px;
   z-index: -10;
-}
-
-.menu-culture-video h3 {
-  text-transform: uppercase;
-  color: #ffffff;
-  font-style: normal;
-  font-weight: bold;
-  font-size: 28px;
-  line-height: 40px;
-  margin: 5px 0 10px 0;
-}
-
-.menu-culture-video button {
-  text-transform: uppercase;
-  background-color: #922fab;
-  border-radius: 31px;
-  padding: 10px 30px;
-  border: none;
-  color: #ffffff;
-  font-weight: bold;
-  font-size: 25px;
-  text-align: center;
-  margin-bottom: 5px;
 }
 
 .menu-deaths-pics {
@@ -753,53 +642,32 @@ button {
 }
 
 .menu-deaths-pics img:nth-child(1) {
-  left: 90px;
-  top: -46px;
+  left: 67px;
+  bottom: -50px;
 }
 
 .menu-deaths-pics img:nth-child(2) {
-  left: -60px;
-  top: 90px;
-}
-
-.menu-deaths img {
-  position: absolute;
-  right: 50px;
-  top: 65px;
-  z-index: -10;
-}
-
-.menu-deaths button {
-  text-transform: uppercase;
-  background-color: #922fab;
-  border-radius: 31px;
-  padding: 0px 30px;
-  line-height: 35px;
-  border: none;
-  color: #ffffff;
-  font-weight: bold;
-  font-size: 20px;
-  text-align: center;
-  margin: 0px 30px;
+  left: -82px;
+  top: 37px;
 }
 
 .right-fixed-bar {
   position: absolute;
-  width: 93px;
-  height: 465px;
-  right: 0;
-  color: #ffffff;
-  writing-mode: vertical-rl;
-  text-orientation: upright;
   display: flex;
   align-items: center;
-  justify-content: center;
-  background-color: #838be1;
-  border-radius: 33px 0px 0px 33px;
+  width: 80px;
+  height: 400px;
   top: 30%;
-  z-index: 1000;
+  right: 0;
+  border-radius: 33px 0px 0px 33px;
+  text-orientation: upright;
+  justify-content: center;
   cursor: pointer;
+  background-color: #3a345f;
+  writing-mode: vertical-rl;
+  color: #ffffff;
   transition: 0.2s;
+  z-index: 1000;
 }
 
 .right-fixed-bar::before {
@@ -813,10 +681,7 @@ button {
 }
 
 .right-fixed-bar p {
-  font-style: normal;
-  font-weight: normal;
-  font-size: 20px;
-  line-height: 23px;
+  font-size: 18px;
   text-transform: uppercase;
 }
 
@@ -843,12 +708,11 @@ button {
 
 .footer-content {
   position: relative;
-  width: 88.5%;
-  max-width: 1701px;
+  width: 90%;
   margin: 0 auto;
   text-align: left;
-  padding-bottom: 50px;
-  padding-top: 80px;
+  padding-bottom: 30px;
+  padding-top: 46px;
 }
 
 .footer-top-line::before {
@@ -873,7 +737,7 @@ button {
 .subscribe-email {
   background-color: #8139a98c;
   color: #ffffff;
-  width: 340px;
+  width: 350px;
   height: 48px;
   margin: 0px;
   padding: 0px 0px 0px 16px;
@@ -882,21 +746,17 @@ button {
 }
 
 .subscribe-form button {
-  background-color: #672c88;
+  font-size: 16px;
   height: 48px;
-  color: #ffffff;
   padding: 6px 11px;
-  border: none;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 14px;
-  line-height: 20px;
+  background-color: #672c88;
   color: #ffffff;
   cursor: pointer;
+  border: none;
 }
 
 .someText {
-  font-size: 14px;
+  font-size: 16px;
   line-height: 20px;
   color: #ffffff;
   max-width: 631px;
@@ -930,9 +790,7 @@ button {
 }
 
 .footer-copyright p {
-  font-style: normal;
-  font-weight: normal;
-  font-size: 14px;
+  font-size: 16px;
   color: #ffffff;
   margin: 0px;
 }
@@ -953,53 +811,41 @@ button {
   width: 25px;
 }
 
-.aa {
-  width: 100px;
-}
-
 [data-aos="fade-left"] {
   transform: translate3d(90px, 0, 0);
 }
 
 @media only screen and (max-width: 1680px) {
   .headerImage {
-    height: 814px;
+    height: 420px;
   }
   .event-description {
     padding: 28px 0px;
   }
   .event-description h2 {
-    font-size: 44px;
+    font-size: 30px;
   }
 }
 /* MEDIA 1200px-1440px */
 @media only screen and (max-width: 1439px) {
+  .arm,
+  .eng {
+    width: 30px;
+  }
   .headerImage {
-    height: 698px;
-  }
-  .navBar-wrapper {
-    margin: 37px auto 54px;
-  }
-  .subscribe-email {
-    width: 300px;
-  }
-  .main-nav-sections li {
-    padding: 10.5px 12px;
-  }
-  .main-nav-sections a {
-    font-size: 16px;
-    margin: 0px 10.5px;
+    height: 420px;
   }
   .navBar p {
-    font-size: 18px;
+    font-size: 14px;
+  }
+  .main-nav-sections a {
+    font-size: 14px;
   }
   .event-description {
     padding: 25px 0px;
   }
   .event-description h2 {
-    font-size: 35px;
-    line-height: 46px;
-    transform: translate(120px, 0px);
+    font-size: 28px;
   }
   .squares {
     width: 290px;
@@ -1018,16 +864,19 @@ button {
     font-size: 17px;
     line-height: 22px;
   }
+  .sections-animation {
+    width: 720px;
+    height: 193px;
+  }
   .sections-animation:not(:last-child) {
     margin-bottom: 125px;
   }
-  .sections-animation {
-    width: 649px;
-    height: 275px;
-  }
   .main {
-    margin: 75px 70px 0px;
-    padding-bottom: 172px;
+    margin: 60px 50px 0px;
+    padding-bottom: 150px;
+  }
+  .general-menu h3 {
+    font-size: 22px;
   }
   .right-animation > div:nth-child(2) {
     width: 256px;
@@ -1040,22 +889,6 @@ button {
     height: 151px;
     margin-left: 58px;
     border-radius: 19px;
-  }
-  .general-menu h3 {
-    font-size: 22px;
-    line-height: 30px;
-  }
-  .general-menu button {
-    padding: 4px 22px;
-    font-size: 18px;
-    border-radius: 23px;
-    line-height: 22px;
-  }
-  .general-menu img {
-    width: 263px;
-    height: 153px;
-    top: 52px;
-    right: 41px;
   }
   .menu-sales-pics img:nth-child(1) {
     width: 301px;
@@ -1082,10 +915,10 @@ button {
     bottom: -52px;
   }
   .menu-encyclopedia-pics img {
-    width: 340.5px;
-    height: 243px;
-    top: 63.75px;
-    right: -22.5px;
+    width: 378px;
+    height: 270px;
+    top: -42px;
+    right: -75px;
   }
   .menu-culture-video-pics img {
     width: 284px;
@@ -1159,14 +992,14 @@ button {
     top: 0px;
   }
   .lang-switch input:checked + .slider img {
-    transform: translate(42px);
+    transform: translate(41px);
+  }
+  .header-info_section {
+    max-width: 82%;
+    padding: 4px 0px;
   }
   .header-info_section a {
     font-size: 14px;
-    line-height: 17px;
-  }
-  .header-info_section {
-    padding: 8px 0px;
   }
   .navBar a {
     height: 29px;
@@ -1182,24 +1015,32 @@ button {
 }
 /* MEDIA 991px-1200px */
 @media only screen and (max-width: 1199px) {
+  .search-input_focus {
+    width: 350px;
+  }
   .headerImage {
     height: 582px;
   }
   .main-nav-sections li {
-    padding: 9px 10px;
+    padding-bottom: 7px;
   }
-  .main-nav-sections a {
-    font-size: 14px;
-    margin: 0px 9px;
+  .navBar li {
+    width: 50%;
+    margin-bottom: 3px;
   }
-  .navBar-wrapper {
-    margin: 31px auto 45px;
+  .navBar li:nth-child(2) a {
+    border: 0;
+  }
+  .navBar li:nth-child(3) {
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+  }
+  .navBar li:nth-child(2) {
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
   }
   .navBar a {
     height: 24px;
-  }
-  .navBar p {
-    font-size: 15px;
   }
   .sections-animation:not(:last-child) {
     margin-bottom: 103px;
@@ -1208,9 +1049,7 @@ button {
     padding: 21px 0px;
   }
   .event-description h2 {
-    font-size: 29px;
-    line-height: 38px;
-    transform: translate(99px, 0px);
+    font-size: 26px;
   }
   .squares {
     width: 240px;
@@ -1233,8 +1072,11 @@ button {
     padding: 0 16px 15px 20px;
   }
   .sections-animation {
-    width: 540px;
-    height: 231px;
+    width: 595px;
+    height: 160px;
+  }
+  .swiper-slide {
+    margin: 15px 0px;
   }
   .main {
     margin: 62px 58px 0px;
@@ -1253,20 +1095,8 @@ button {
     border-radius: 16px;
   }
   .general-menu h3 {
-    font-size: 19px;
+    font-size: 20px;
     line-height: 25px;
-  }
-  .general-menu button {
-    padding: 3px 19px;
-    font-size: 16px;
-    border-radius: 19px;
-    line-height: 19px;
-  }
-  .general-menu img {
-    width: 220px;
-    height: 127px;
-    top: 44px;
-    right: 34px;
   }
   .menu-sales-pics img:nth-child(1) {
     width: 251px;
@@ -1293,10 +1123,10 @@ button {
     bottom: -44px;
   }
   .menu-encyclopedia-pics img {
-    width: 283.75px;
-    height: 202.5px;
-    top: 53px;
-    right: -18.75px;
+    width: 312.4px;
+    height: 223px;
+    top: -34.4px;
+    right: -61.9px;
   }
   .menu-culture-video-pics img {
     width: 237px;
@@ -1353,6 +1183,24 @@ button {
 
 /* MEDIA 768px-991px */
 @media only screen and (max-width: 990px) {
+  .arm,
+  .eng {
+    font-size: 12px;
+    width: 24px;
+  }
+  .slider {
+    width: 55px;
+    height: 23px;
+  }
+  .slider img {
+    width: 23px;
+    height: 23px;
+    left: -1px;
+    top: 0px;
+  }
+  .lang-switch input:checked + .slider img {
+    transform: translate(33px);
+  }
   .headerImage {
     height: 480px;
   }
@@ -1371,24 +1219,6 @@ button {
   .main-nav-sections li {
     display: block;
   } */
-  .main-nav-sections li {
-    padding: 7px 8px;
-  }
-  .main-nav-sections a {
-    font-size: 12px;
-    margin: 0px 7px;
-  }
-  .navBar-wrapper {
-    margin: 26px auto 37px;
-  }
-  .navBar {
-    background-color: inherit;
-  }
-  .navBar li {
-    background-color: #838be1;
-    width: 50%;
-    margin-bottom: 3px;
-  }
   .left-side {
     margin-bottom: 2px;
   }
@@ -1399,30 +1229,11 @@ button {
     /* margin-top: 0; */
     margin-bottom: 2px;
   }
-  .navBar li:nth-child(2) a {
-    border: 0;
-  }
-  .navBar a {
-    height: 20px;
-  }
-  .navBar p {
-    font-size: 14px;
-  }
-  .navBar li:nth-child(odd) {
-    border-top-left-radius: 10px;
-    border-bottom-left-radius: 10px;
-  }
-  .navBar li:nth-child(even) {
-    border-top-right-radius: 10px;
-    border-bottom-right-radius: 10px;
-  }
   .event-description {
     padding: 17px 0px;
   }
   .event-description h2 {
     font-size: 24px;
-    line-height: 32px;
-    transform: translate(77px, 0px);
   }
   .squares {
     width: 198px;
@@ -1449,8 +1260,8 @@ button {
     margin-bottom: 80px;
   }
   .sections-animation {
-    width: 446px;
-    height: 191px;
+    width: 461px;
+    height: 124px;
   }
   .main {
     margin: 52px 48px 0px;
@@ -1469,20 +1280,8 @@ button {
     border-radius: 13px;
   }
   .general-menu h3 {
-    font-size: 15px;
+    font-size: 16px;
     line-height: 21px;
-  }
-  .general-menu button {
-    padding: 2px 15px;
-    font-size: 13px;
-    border-radius: 16px;
-    line-height: 15px;
-  }
-  .general-menu img {
-    width: 181px;
-    height: 105px;
-    top: 36px;
-    right: 28px;
   }
   .menu-sales-pics img:nth-child(1) {
     width: 207px;
@@ -1509,10 +1308,10 @@ button {
     bottom: -36px;
   }
   .menu-encyclopedia-pics img {
-    width: 234px;
-    height: 167px;
-    top: 43.8px;
-    right: -15px;
+    width: 242.1px;
+    height: 172.8px;
+    top: -26.7px;
+    right: -48px;
   }
   .menu-culture-video-pics img {
     width: 196px;
@@ -1571,25 +1370,11 @@ button {
   .search-input {
     height: 26px;
   }
-  .slider {
-    width: 65px;
-    height: 26px;
-  }
-  .slider img {
-    width: 26px;
-    height: 26px;
-    left: -1px;
-    top: 0px;
-  }
-  .lang-switch input:checked + .slider img {
-    transform: translate(42px);
-  }
   .header-info_section a {
     font-size: 14px;
-    line-height: 17px;
   }
   .header-info_section {
-    padding: 8px 0px;
+    padding: 0px;
   }
   .navBar-btn {
     display: block;
@@ -1622,13 +1407,12 @@ button {
     margin-bottom: 1px;
     border-bottom-width: 1px;
   }
-  .main-nav-sections a {
-    font-size: 10px;
-    margin: 0px 5px;
-  }
   .navBar-btn {
     width: 23px;
     margin-right: 20px;
+  }
+  .navBar li {
+    padding: 3px 0px;
   }
   .navBar-btn li {
     height: 3px;
@@ -1645,18 +1429,17 @@ button {
   .three {
     width: 19.3px;
   }
-  .navBar-wrapper {
-    margin: 20px auto 29px;
-  }
   .navBar li {
     flex-basis: 50%;
+  }
+  .main-slider_wrapper {
+    margin-top: 20px;
   }
   .event-description {
     padding: 13px 0px;
   }
   .event-description h2 {
-    font-size: 18.6px;
-    transform: translate(60px, 0px);
+    font-size: 22px;
   }
   .squares {
     width: 170px;
@@ -1682,8 +1465,8 @@ button {
     margin-bottom: 62px;
   }
   .sections-animation {
-    width: 346px;
-    height: 148px;
+    width: 360px;
+    height: 97px;
   }
   .main {
     margin: 40px 37px 0px;
@@ -1702,20 +1485,8 @@ button {
     border-radius: 10px;
   }
   .general-menu h3 {
-    font-size: 11px;
+    font-size: 14px;
     line-height: 16px;
-  }
-  .general-menu button {
-    padding: 1px 12px;
-    font-size: 10px;
-    border-radius: 12px;
-    line-height: 12px;
-  }
-  .general-menu img {
-    width: 140px;
-    height: 82px;
-    top: 28px;
-    right: 22px;
   }
   .menu-sales-pics img:nth-child(1) {
     width: 161px;
@@ -1742,10 +1513,10 @@ button {
     bottom: -28px;
   }
   .menu-encyclopedia-pics img {
-    width: 181.6px;
-    height: 129.6px;
-    top: 34px;
-    right: -12px;
+    width: 189.2px;
+    height: 135px;
+    top: -20.8px;
+    right: -20px;
   }
   .menu-culture-video-pics img {
     width: 151px;
@@ -1798,9 +1569,15 @@ button {
     margin-top: 11px;
     margin-bottom: 13px;
   }
+  .footer-content {
+    width: 100%;
+  }
+  .subscribe-email {
+    width: 100%;
+  }
 }
 /* MEDIA 0px-600px */
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 599px) {
   .headerImage {
     height: 290px;
   }
@@ -1810,18 +1587,20 @@ button {
   .header-section {
     padding: 10px 0px 15px 0px;
   }
-  .main-nav-sections a {
-    font-size: 8px;
-    margin: 0px 4px;
-  }
   .header-main-nav {
-    /* margin-top: 0; */
     margin-bottom: 1px;
+  }
+  .navBar li {
+    padding: 0px;
+  }
+  .navBar p {
+    font-size: 12px;
   }
   .navBar-btn {
     width: 18px;
     margin-right: 15px;
   }
+
   .navBar-btn li {
     height: 2px;
   }
@@ -1837,18 +1616,11 @@ button {
   .three {
     width: 15px;
   }
-  .navBar-wrapper {
-    margin: 16px auto 22px;
-  }
-  .navBar li {
-    flex-basis: 50%;
-  }
   .event-description {
     padding: 10px 0px;
   }
   .event-description h2 {
-    font-size: 14.5px;
-    transform: translate(55px, 0px);
+    font-size: 20px;
   }
   .squares {
     width: 150px;
@@ -1872,8 +1644,8 @@ button {
     margin-bottom: 52px;
   }
   .sections-animation {
-    width: 270px;
-    height: 116px;
+    width: 290px;
+    height: 78px;
   }
   .main {
     margin: 31px 29px 0px;
@@ -1892,20 +1664,8 @@ button {
     border-radius: 8px;
   }
   .general-menu h3 {
-    font-size: 9px;
+    font-size: 12px;
     line-height: 12px;
-  }
-  .general-menu button {
-    padding: 1px 10px;
-    font-size: 8px;
-    border-radius: 9px;
-    line-height: 9px;
-  }
-  .general-menu img {
-    width: 110px;
-    height: 64px;
-    top: 22px;
-    right: 17px;
   }
   .menu-sales-pics img:nth-child(1) {
     width: 126px;
@@ -1934,8 +1694,8 @@ button {
   .menu-encyclopedia-pics img {
     width: 141.8px;
     height: 101px;
-    top: 26px;
-    right: -9px;
+    top: -10px;
+    right: 0px;
   }
   .menu-culture-video-pics img {
     width: 118px;

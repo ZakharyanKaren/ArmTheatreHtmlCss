@@ -29,7 +29,7 @@ langCheckbox.addEventListener("change", () => {
 //Swiper slider
 const swiper = new Swiper(".swiper", {
   slidesPerView: 4,
-  spaceBetween: 20,
+  spaceBetween: 10,
   speed: 1200,
   loop: true,
   autoplay: {
@@ -37,6 +37,13 @@ const swiper = new Swiper(".swiper", {
     disableOnInteraction: false,
   },
   direction: "horizontal",
+  breakpoints: {
+    // when window width is >= 320px
+    991: {
+      slidesPerView: 5,
+      spaceBetween: 20,
+    },
+  },
 });
 // Animate on scroll
 AOS.init();
@@ -63,32 +70,56 @@ personImages.map((img, idx) => {
     modalContent.src = img.src;
   });
 });
-
-closeBtn.onclick = function () {
-  modal.style.display = "none";
-};
+if (closeBtn !== null) {
+  closeBtn.onclick = function () {
+    modal.style.display = "none";
+  };
+}
 
 // previous, next image
 const prev = document.querySelector(".prev");
 const next = document.querySelector(".next");
 
-prev.addEventListener("click", () => {
-  imageIndex = imageIndex === 0 ? personImages.length - 1 : imageIndex - 1;
-  modalContent.src = personImages[imageIndex].src;
-});
+if (prev !== null && next !== null) {
+  prev.addEventListener("click", () => {
+    imageIndex = imageIndex === 0 ? personImages.length - 1 : imageIndex - 1;
+    modalContent.src = personImages[imageIndex].src;
+  });
 
-next.addEventListener("click", () => {
-  imageIndex = imageIndex === personImages.length - 1 ? 0 : imageIndex + 1;
-  modalContent.src = personImages[imageIndex].src;
-});
+  next.addEventListener("click", () => {
+    imageIndex = imageIndex === personImages.length - 1 ? 0 : imageIndex + 1;
+    modalContent.src = personImages[imageIndex].src;
+  });
 
-modal.addEventListener("click", function (e) {
-  if (e.target !== this) {
-    return;
+  modal.addEventListener("click", function (e) {
+    if (e.target !== this) {
+      return;
+    }
+    modal.style.display = "none";
+  });
+}
+
+// add persons to encyclopedia section
+function personsList() {
+  const personsList = document.querySelector(".encyclopedia-persons");
+
+  for (let i = 0; i < 24; i++) {
+    let a = document.createElement("a");
+    let img = document.createElement("img");
+    let p = document.createElement("p");
+
+    a.classList.add("encyclopedia-person");
+    a.href = "./person-info/person-info.html";
+    img.src = "./images/img1.png";
+    img.alt = "img1";
+    p.textContent = "Աբաս Իսահակյան Բանասեր 1900 - 1977";
+    a.appendChild(img);
+    a.appendChild(p);
+    personsList.appendChild(a);
   }
-  modal.style.display = "none";
-});
+}
 
+personsList();
 //Responsive sizes
 const sizes = [1200, 991, 768, 600];
 
@@ -134,6 +165,8 @@ function res(name, params) {
 }
 
 res("person-images img", {
-  width: 20,
-  awd: 35,
+  width: 865,
+  height: 232,
+  top: -50,
+  right: -90,
 });
