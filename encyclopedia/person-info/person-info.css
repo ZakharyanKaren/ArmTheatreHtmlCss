@@ -32,6 +32,10 @@
   margin-left: 0;
 }
 
+.person-info {
+  margin-bottom: 38px;
+}
+
 .person-info img {
   width: 270px;
   height: 382px;
@@ -66,7 +70,6 @@
 
 .likeShare {
   display: flex;
-  margin-top: 38px;
 }
 
 .likeShare button {
@@ -219,9 +222,6 @@
     line-height: 19.17px;
     margin-bottom: 23.33px;
   }
-  .likeShare {
-    margin-top: 31.67px;
-  }
   .person-images {
     grid-template-columns: repeat(2, 141.67px);
     gap: 21.67px;
@@ -276,9 +276,6 @@
     font-size: 13.76px;
     line-height: 15.83px;
     margin-bottom: 19.27px;
-  }
-  .likeShare {
-    margin-top: 26.15px;
   }
   .person-images {
     grid-template-columns: repeat(2, 116.99px);
@@ -335,9 +332,6 @@
     line-height: 12.27px;
     margin-bottom: 14.93px;
   }
-  .likeShare {
-    margin-top: 20.27px;
-  }
   .person-images {
     grid-template-columns: repeat(2, 90.67px);
     gap: 13.87px;
@@ -392,9 +386,6 @@
     font-size: 8.33px;
     line-height: 9.58px;
     margin-bottom: 11.67px;
-  }
-  .likeShare {
-    margin-top: 15.83px;
   }
   .person-images {
     grid-template-columns: repeat(2, 70.83px);

@@ -1,7 +1,9 @@
 .news-section {
-  background-color: #071832;
+  width: 100%;
+  margin: 50px auto 80px;
   text-align: left;
-  margin: 97px 114px 0 101px;
+  color: #ffffff;
+  background-color: #071832;
 }
 
 .news-section h1 {
@@ -37,7 +39,7 @@
 .bottom-wrapper {
   display: flex;
   justify-content: space-between;
-  margin: 69px 0px 215px 0px;
+  margin-top: 50px;
 }
 
 .likeShare {
@@ -81,9 +83,6 @@
 }
 
 @media only screen and (max-width: 1439px) {
-  .news-section {
-    margin: 80.83px 95px 0px 84.17px;
-  }
   .news-section h1 {
     font-size: 29.17px;
     line-height: 33.33px;
@@ -99,9 +98,6 @@
   }
 }
 @media only screen and (max-width: 1199px) {
-  .news-section {
-    margin: 66.75px 78.45px 0px 69.51px;
-  }
   .news-section h1 {
     font-size: 24.09px;
     line-height: 27.53px;
@@ -117,9 +113,6 @@
   }
 }
 @media only screen and (max-width: 990px) {
-  .news-section {
-    margin: 51.73px 60.8px 0px 53.87px;
-  }
   .news-section h1 {
     font-size: 18.67px;
     line-height: 21.33px;
@@ -135,9 +128,6 @@
   }
 }
 @media only screen and (max-width: 767px) {
-  .news-section {
-    margin: 40.42px 47.5px 0px 42px;
-  }
   .news-section h1 {
     font-size: 14.58px;
     line-height: 16.67px;
