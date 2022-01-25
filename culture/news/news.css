@@ -42,31 +42,6 @@
   margin-top: 50px;
 }
 
-.likeShare {
-  display: flex;
-}
-
-.likeShare button {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  background-color: #0277bd;
-  border: none;
-  border-radius: 5px;
-  width: 78px;
-  height: 25px;
-  text-transform: uppercase;
-  margin-right: 10px;
-}
-
-.likeShare a {
-  text-decoration: none;
-  text-transform: uppercase;
-  color: #ffffff;
-  margin-left: 6px;
-  margin-top: 3px;
-}
-
 .date-info img {
   float: left;
   margin-right: 5px;

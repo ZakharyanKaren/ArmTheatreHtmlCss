@@ -10,7 +10,7 @@
 @import url("./services/host/host.css");
 @import url("./services/events/events.css");
 @import url("./services/dancing/dancing.css");
-/* @import url("./videos/video-view/video-view.css"); */
+@import url("./videos/video-view/video-view.css");
 * {
   box-sizing: border-box;
 }
@@ -813,6 +813,16 @@ button {
 
 [data-aos="fade-left"] {
   transform: translate3d(90px, 0, 0);
+}
+
+.share button {
+  border: none;
+  border-radius: 5px;
+  width: 78px;
+  height: 25px;
+  text-transform: uppercase;
+  color: #ffffff;
+  background-color: #0277bd;
 }
 
 @media only screen and (max-width: 1680px) {

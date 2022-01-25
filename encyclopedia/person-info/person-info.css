@@ -68,32 +68,6 @@
   margin-top: 0;
 }
 
-.likeShare {
-  display: flex;
-}
-
-.likeShare button {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  background-color: #0277bd;
-  border: none;
-  border-radius: 5px;
-  width: 78px;
-  height: 25px;
-  text-transform: uppercase;
-  margin-right: 11px;
-}
-
-.likeShare button:first-child img {
-  margin-right: 5px;
-}
-
-.likeShare a {
-  text-decoration: none;
-  text-transform: uppercase;
-}
-
 .person-images {
   display: grid;
   grid-template-columns: repeat(2, 170px);
