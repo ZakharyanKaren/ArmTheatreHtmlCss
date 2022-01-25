@@ -648,7 +648,7 @@ button {
 }
 
 .right-fixed-bar {
-  position: fixed;
+  position: absolute;
   display: flex;
   align-items: center;
   width: 80px;
