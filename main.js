@@ -27,33 +27,34 @@ langCheckbox.addEventListener("change", () => {
 });
 
 //Swiper slider
-const swiper = new Swiper(".swiper", {
-  slidesPerView: 4,
-  spaceBetween: 10,
-  speed: 1200,
-  loop: true,
-  autoplay: {
-    delay: 2000,
-    disableOnInteraction: false,
-  },
-  direction: "horizontal",
-  breakpoints: {
-    // when window width is >= 320px
-    991: {
-      slidesPerView: 5,
-      spaceBetween: 20,
+function runSwiper() {
+  const swiper = new Swiper(".swiper", {
+    slidesPerView: 4,
+    spaceBetween: 10,
+    speed: 1200,
+    loop: true,
+    autoplay: {
+      delay: 2000,
+      disableOnInteraction: false,
     },
-  },
-});
-// Animate on scroll
-AOS.init();
-//responsive navBar
-// const mainNavBtn = document.querySelector(".main-nav-sections");
-// const navBarBtn = document.querySelector(".navBar-btn");
+    direction: "horizontal",
+    breakpoints: {
+      // when window width is >= 320px
+      991: {
+        slidesPerView: 5,
+        spaceBetween: 20,
+      },
+    },
+  });
+}
 
-// navBarBtn.addEventListener("click", (e) => {
-//   mainNavBtn.classList.toggle("show");
-// });
+//responsive navBar
+const mainNavBtn = document.querySelector(".main-nav-sections");
+const navBarBtn = document.querySelector(".navBar-btn");
+
+navBarBtn.addEventListener("click", (e) => {
+  mainNavBtn.classList.toggle("show");
+});
 
 // modal images
 const modal = document.querySelector(".modal-image");
@@ -119,7 +120,28 @@ function personsList() {
   }
 }
 
-personsList();
+if (document.location.pathname === "/index.html") {
+  runSwiper();
+  // Animate on scroll
+  AOS.init();
+} else if (document.location.pathname === "/encyclopedia/encyclopedia.html") {
+  personsList();
+}
+
+//Map
+let map;
+
+function initMap() {
+  map = new google.maps.Map(document.getElementById("map"), {
+    center: { lat: 40.1748897, lng: 44.5186201 },
+    zoom: 15,
+  });
+  const marker = new google.maps.Marker({
+    position: { lat: 40.1748897, lng: 44.5186201 },
+    map: map,
+  });
+}
+
 //Responsive sizes
 const sizes = [1200, 991, 768, 600];
 

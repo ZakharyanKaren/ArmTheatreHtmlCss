@@ -57,6 +57,9 @@
   .video-frame {
     height: 400px;
   }
+  .video-view h1 {
+    font-size: 28px;
+  }
 }
 
 @media only screen and (max-width: 1199px) {

@@ -1,0 +1,88 @@
+.contact-section {
+  width: 100%;
+  margin: 50px auto 60px;
+  text-align: left;
+  color: #ffffff;
+  background-color: #071832;
+}
+
+.contact-section h1 {
+  font-size: 40px;
+  text-align: center;
+  color: #afb8f1;
+  text-shadow: 9px 13px 4px rgba(0, 0, 0, 0.25);
+  text-transform: uppercase;
+}
+
+.contact-wrapper {
+  display: flex;
+  justify-content: space-between;
+}
+
+.contact-info {
+  background-color: rgba(206, 131, 225, 0.3);
+  border-radius: 15px;
+  padding: 20px 120px;
+}
+
+.contact-info p {
+  margin: 0px;
+  line-height: 21px;
+  text-align: center;
+  color: #afb8f1;
+}
+
+.contact-form-wrapper {
+  margin-top: 57px;
+}
+
+.contact-form-wrapper form {
+}
+
+.contact-form-wrapper form input {
+  outline: none;
+  color: #ffffff;
+}
+
+.email-input {
+  margin-top: 14px;
+  width: 100%;
+}
+
+.message-textarea {
+  margin-top: 14px;
+  resize: none;
+  width: 100%;
+  height: 90px;
+  outline: none;
+  color: #ffffff;
+}
+
+.submit-form-btn {
+  color: rgba(255, 255, 255, 0.3);
+  margin-top: 7px;
+  float: right;
+}
+
+.contact-form input,
+.message-textarea,
+.submit-form-btn {
+  background-color: rgba(206, 131, 225, 0.3);
+  border: none;
+  border-radius: 10px;
+  font-size: 18px;
+  padding: 10px 13px;
+}
+
+.contact-map > p {
+  font-size: 18px;
+  line-height: 21px;
+  text-align: center;
+  color: #afb8f1;
+}
+
+#map {
+  width: 424px;
+  height: 290px;
+  border-radius: 10px;
+}

@@ -1,7 +1,11 @@
 .services-section {
-  background-color: #071832;
-  margin: 97px 114px 160px 101px;
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  margin: 50px auto 80px;
   text-align: left;
+  color: #ffffff;
+  background-color: #071832;
 }
 
 .services-wrapper {

@@ -1,0 +1,140 @@
+.aboutUs-section {
+  width: 100%;
+  margin: 50px auto 60px;
+  text-align: left;
+  color: #ffffff;
+  background-color: #071832;
+}
+
+.aboutUs-section h1 {
+  font-size: 40px;
+  text-align: center;
+  color: #afb8f1;
+  text-shadow: 9px 13px 4px rgba(0, 0, 0, 0.25);
+  text-transform: uppercase;
+}
+
+.aboutUs-section p {
+  font-size: 18px;
+  line-height: 21px;
+}
+
+.aboutUs-section h3 {
+  font-size: 25px;
+  margin: 0px;
+  margin-top: 30px;
+  color: #afb8f1;
+  text-align: right;
+  text-shadow: 9px 13px 4px rgba(0, 0, 0, 0.25);
+}
+
+.aboutUs-section img {
+  margin: 15px;
+  width: 170px;
+  float: right;
+}
+
+@media only screen and (max-width: 1440px) {
+  .aboutUs-section {
+    margin: 45px auto 55px;
+  }
+  .aboutUs-section h1 {
+    font-size: 32px;
+  }
+  .aboutUs-section p {
+    font-size: 16px;
+    line-height: 18px;
+  }
+  .aboutUs-section h3 {
+    font-size: 22px;
+    margin-top: 30px;
+  }
+  .aboutUs-section img {
+    margin: 15px;
+    width: 150px;
+  }
+}
+
+@media only screen and (max-width: 1200px) {
+  .aboutUs-section {
+    margin: 40px auto 50px;
+  }
+  .aboutUs-section h1 {
+    font-size: 28px;
+  }
+  .aboutUs-section p {
+    font-size: 16px;
+    line-height: 18px;
+  }
+  .aboutUs-section h3 {
+    font-size: 20px;
+    margin-top: 25px;
+  }
+  .aboutUs-section img {
+    margin: 10px;
+    width: 120px;
+  }
+}
+
+@media only screen and (max-width: 991px) {
+  .aboutUs-section {
+    margin: 40px auto 50px;
+  }
+  .aboutUs-section h1 {
+    font-size: 28px;
+  }
+  .aboutUs-section p {
+    font-size: 16px;
+    line-height: 18px;
+  }
+  .aboutUs-section h3 {
+    font-size: 19px;
+    margin-top: 25px;
+  }
+  .aboutUs-section img {
+    margin: 10px;
+    width: 100px;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .aboutUs-section {
+    margin: 40px auto 50px;
+  }
+  .aboutUs-section h1 {
+    font-size: 28px;
+  }
+  .aboutUs-section p {
+    font-size: 16px;
+    line-height: 18px;
+  }
+  .aboutUs-section h3 {
+    font-size: 19px;
+    margin-top: 25px;
+  }
+  .aboutUs-section img {
+    margin: 10px;
+    width: 100px;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .aboutUs-section {
+    margin: 40px auto 50px;
+  }
+  .aboutUs-section h1 {
+    font-size: 28px;
+  }
+  .aboutUs-section p {
+    font-size: 16px;
+    line-height: 18px;
+  }
+  .aboutUs-section h3 {
+    font-size: 19px;
+    margin-top: 25px;
+  }
+  .aboutUs-section img {
+    margin: 10px;
+    width: 100px;
+  }
+}

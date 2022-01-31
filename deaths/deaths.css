@@ -1,8 +1,8 @@
 .deaths-section {
   display: flex;
   justify-content: space-between;
-  width: 88.5%;
-  margin: 75px auto 115px;
+  width: 100%;
+  margin: 50px auto 80px;
   text-align: left;
   color: #ffffff;
   background-color: #071832;
