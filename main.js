@@ -119,7 +119,7 @@ function personsList() {
     personsList.appendChild(a);
   }
 }
-
+console.log(document.location);
 if (document.location.pathname === "/index.html") {
   runSwiper();
   // Animate on scroll
