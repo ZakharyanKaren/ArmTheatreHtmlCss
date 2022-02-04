@@ -612,7 +612,7 @@ button {
 
 .menu-culture-pics img:nth-child(2) {
   left: 20px;
-  bottom: -135px;
+  bottom: -100px;
 }
 
 .menu-culture-video-pics {
@@ -1757,46 +1757,4 @@ button {
     margin-top: 9px;
     margin-bottom: 10px;
   }
-}
-
-.comingSoon .tooltiptext {
-  visibility: hidden;
-  width: 80px;
-  background-color: black;
-  color: #fff;
-  text-align: center;
-  border-radius: 6px;
-  padding: 2px 0;
-  font-size: 10px;
-
-  position: absolute;
-  z-index: 1;
-}
-
-.comingSoon:hover .tooltiptext {
-  visibility: visible;
-}
-
-.comingSoon {
-  position: relative;
-  display: flex;
-  flex-direction: column;
-}
-
-.comingSoon::after {
-  position: relative;
-  display: flex;
-  flex-direction: column;
-  opacity: 0;
-}
-
-.comingSoon:hover::after {
-  content: "Շուտով";
-  position: relative;
-  font-size: 10px;
-  color: #ffffff;
-  opacity: 1;
-  text-align: left;
-  text-transform: initial;
-  transition: opacity 0.3s ease-in-out 0s;
 }

@@ -15,8 +15,8 @@
 
 .service-wrapper {
   position: relative;
-  width: 318px;
-  height: 367px;
+  width: 23%;
+  height: 350px;
   border: 1px solid #ffffff;
   border-radius: 33px;
   text-align: center;
@@ -39,6 +39,7 @@
 }
 
 .service img {
+  width: 100%;
 }
 .service p {
   margin: 0px;
