@@ -22,8 +22,8 @@ const langCheckbox = document.querySelector(".lang-checkbox");
 
 langCheckbox.addEventListener("change", () => {
   langImage.src = langCheckbox.checked
-    ? "./images/eng.png"
-    : "./images/arm.png";
+    ? "../images/eng.png"
+    : "../images/arm.png";
 });
 
 //Swiper slider
