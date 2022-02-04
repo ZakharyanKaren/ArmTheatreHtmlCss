@@ -119,12 +119,12 @@ function personsList() {
     personsList.appendChild(a);
   }
 }
-console.log(document.location);
-if (document.location.pathname === "/index.html") {
-  runSwiper();
-  // Animate on scroll
-  AOS.init();
-} else if (document.location.pathname === "/encyclopedia/encyclopedia.html") {
+
+runSwiper();
+// Animate on scroll
+AOS.init();
+
+if (document.location.pathname === "/encyclopedia/encyclopedia.html") {
   personsList();
 }
 
